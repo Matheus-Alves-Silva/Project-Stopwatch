@@ -1,0 +1,131 @@
+/* config página */
+*,
+*::before,
+*::after{
+  padding: 0px;
+  overflow: hidden;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*cor da página*/
+body{
+  background: #202024;
+}
+
+/* config container, cor, tamanho, posição.*/
+.container{
+  background-color: #323238;
+  width: 0%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  padding: 15px 0;
+  padding-bottom: 70px;
+  border-radius: 80px;
+}
+
+/* config timer cor, tamanho, posição, letra*/
+.timerDisplay{
+  position: absolute;
+  top: 45.5%;
+  width: 100%;
+  text-align: center;
+  padding: 17.3px 0;
+  font-size: 45px;
+  font-family: 'Roboto mono',monospace;
+  border-radius: 10px;
+  justify-content: space-around;
+  display: flex;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* config botões */
+.buttons{
+  position: absolute;
+  top: 57%;
+  width: 90%;
+  margin: 2px auto 0 auto;
+  left: 51%;
+  justify-content: space-around;
+}
+
+.buttonS{
+  position: absolute;
+  top: 57%;
+  width: 90%;
+  margin: 2px auto 0 auto;
+  left: 44.5%;
+  justify-content: space-around;
+}
+
+.buttonP{
+  position: absolute;
+  top: 57%;
+  width: 90%;
+  margin: 2px auto 0 auto;
+  left: 44.5%;
+  justify-content: space-around;
+}
+
+.buttons button{
+  width: 100px;
+  height: 43px;
+  background-color: #205e94;
+  color: #ffffff;
+  border: none;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonS button{
+  width: 100px;
+  height: 43px;
+  background-color: #205e94;
+  color: #ffffff;
+  border: none;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonP button{
+  width: 100px;
+  height: 43px;
+  background-color: #942020;
+  color: #ffffff;
+  border: none;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.buttonP :nth-last-child(2){
+  background-color: #d23332;
+}
+
+.buttons button:nth-last-child(1){
+  background-color: #20b380;
+}
+
+.titulo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  left: 763px;
+  position: absolute;
+  top: 200px;
+  color:white;
+}
+
+
